@@ -5,8 +5,9 @@
  * Time: 1:54 PM
  */
 package airutils.file {
-public class retrieveWorkingDirectory {
+	import flash.filesystem.File;
+
     public function retrieveWorkingDirectory() : File {
+		return null;
     }
-}
 }

@@ -6,7 +6,8 @@
  */
 package airutils.file {
 
-    public function readXMLFromFile() {
+    public function readXMLFromFile(filePath:String):XML {
+		return new XML(readStringFromFile(filePath));
     }
 
 }

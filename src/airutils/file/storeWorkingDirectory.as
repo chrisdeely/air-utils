@@ -5,8 +5,8 @@
  * Time: 1:54 PM
  */
 package airutils.file {
-public class storeWorkingDirectory {
-    public function storeWorkingDirectory(file:File) {
+	import flash.filesystem.File;
+
+    public function storeWorkingDirectory(file:File):void {
     }
-}
 }

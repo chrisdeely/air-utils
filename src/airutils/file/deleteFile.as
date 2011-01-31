@@ -7,7 +7,7 @@
 package airutils.file {
 import flash.filesystem.File;
 
-    public function deleteFile(file:File) {
+    public function deleteFile(file:File):void {
 
         if(!file.isDirectory) file.deleteFile();
         else throw new Error("deleteFile cannot delete directory")

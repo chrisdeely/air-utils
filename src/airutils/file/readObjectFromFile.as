@@ -5,6 +5,10 @@
  * Time: 1:38 PM
  */
 package airutils.file {
+	import flash.filesystem.File;
+	import flash.filesystem.FileMode;
+	import flash.filesystem.FileStream;
+	import flash.utils.ByteArray;
 
     public function readObjectFromFile(file:File) : Object {
 

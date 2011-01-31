@@ -6,7 +6,7 @@
  */
 package airutils.file {
 
-    public function deleteFiles() {
+    public function deleteFiles():void {
 
 
     }
